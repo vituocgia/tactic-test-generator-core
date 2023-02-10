@@ -28,7 +28,7 @@ The tool can be built using `maven`, following these steps:
    ```
    <servers>
      <server>
-     <id>github-sinha108</id>
+     <id>github-vituocgia</id>
      <username>USERNAME</username>
      <password>PASSWORD</password>
     </server>

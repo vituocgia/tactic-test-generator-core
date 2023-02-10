@@ -36,7 +36,7 @@ jobs:
 #      uses: s4u/maven-settings-action@v2.4.0
 #      with:
 #        servers: '[
-#          {"id": "github-sinha108", "username": "$GITHUB_ACTOR", "password": "${{ secrets.TKLTEST_PKGS_PAT }}"}
+#          {"id": "github-vituocgia", "username": "$GITHUB_ACTOR", "password": "${{ secrets.TKLTEST_PKGS_PAT }}"}
 #        ]'
     - name: Run crawljax config test cases on sample data
       run: |
@@ -76,7 +76,7 @@ jobs:
 #        uses: s4u/maven-settings-action@v2.4.0
 #        with:
 #          servers: '[
-#          {"id": "github-sinha108", "username": "$GITHUB_ACTOR", "password": "${{ secrets.TKLTEST_PKGS_PAT }}"}
+#          {"id": "github-vituocgia", "username": "$GITHUB_ACTOR", "password": "${{ secrets.TKLTEST_PKGS_PAT }}"}
 #        ]'
 #      - name: Delete old package version
 ##        uses: actions/delete-package-versions@v2.0.1
