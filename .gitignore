@@ -1,0 +1,35 @@
+/com/
+
+#
+# Standard Maven .gitignore
+#
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+!test/data/**/target
+
+#
+# IntelliJ
+#
+*.iml
+*.idea/
+!.idea/runConfigurations/
+
+#
+# Misc files
+#
+.settings/
+.classpath
+.factorypath
+.project
+.vscode/
+.DS_Store
+
+lib/download
